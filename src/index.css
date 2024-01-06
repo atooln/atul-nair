@@ -11,10 +11,10 @@
 }
 
 :root {
-    --color-bg: #1f1f38;
+    --color-bg: #EFEFD8;
     --color-bg-variant: #2c2c6c;
-    --color-primary: #4db5ff;
-    --color-primary-variant: rgba(77, 181, 255, 0.4);
+    --color-primary: #71B48D;
+        --color-primary-variant: #E2905A;
     --color-white: #fff;
     --color-light: rgba(255, 255, 255, 0.6);
 
@@ -36,7 +36,7 @@ html {
 body {
     font-family: 'Poppins', sans-serif;
     background-color: var(--color-bg);
-    color: var(--color-white);
+    color: var(--color-primary);
     line-height: 1.7;
     background-image: url(../src/assets/bg-texture.png);
 }
@@ -84,7 +84,7 @@ a {
 }
 
 a:hover {
-    color: var(--color-white);
+    color: var(--color-primary-variant);
 }
 
 .btn {
@@ -99,7 +99,7 @@ a:hover {
 }
 
 .btn:hover {
-    background-color: var(--color-white);
+    background-color: var(--color-primary-variant);
     color: var(--color-bg);
     border-color: transparent;
 }

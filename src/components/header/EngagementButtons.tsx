@@ -1,10 +1,11 @@
 import React from 'react';
+import Resume from '../../assets/AN-Resume.pdf'
 
 function EngagementButtons() {
     return (
         <div className="cta">
-            <a download className="btn">
-                Download CV
+            <a href={Resume} download className="btn">
+                Resume
             </a>
             <a href="#contact" className="btn btn-primary">
                 Let's talk
